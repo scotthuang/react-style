@@ -22,7 +22,10 @@
   },
   "jest": {
     "rootDir": "",
-    "scriptPreprocessor": "jest/preprocessor.js"
+    "scriptPreprocessor": "jest/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
   },
    "repository": {
     "type": "git",
